@@ -110,7 +110,7 @@ menu:
       weight: 10
     - identifier: download
       name: Download
-      url: https://apps.apple.com/us/app/strava-run-ride-hike/id426826309
+      url: https://apps.apple.com/us/app/memories-widget-for-strava/id6448870765
       weight: 20
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
