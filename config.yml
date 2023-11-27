@@ -55,8 +55,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true 
-    title: "Memories"
-    subtitle: "Widgets for Strava"
+    title: "Memories, widgets for Strava"
+    subtitle: "\"Love the app. Only just got into running this year, and it's really motivational to be reminder of my past efforts\" — Andy"
     imageUrl: "cover.png"
     imageWidth: 120
     imageHeight: 120
