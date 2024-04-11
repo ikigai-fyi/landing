@@ -1,0 +1,5 @@
+---
+title: "Memories Redirect"
+aliases:
+  - /
+---
