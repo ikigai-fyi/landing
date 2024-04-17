@@ -18,9 +18,21 @@
     font-style: oblique;
 }
 
+#cover-img {
+    display: inline-table;
+    width: 70%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #cover-img {
+        width: 100%;
+    }
+}
+
 .profile img {
     display: inline-table;
-    border-radius: 26%;
+    /* border-radius: 26%; */
 }
 
 .buttons {
