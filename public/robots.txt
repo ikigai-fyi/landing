@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: ikigai.fyi/sitemap.xml
