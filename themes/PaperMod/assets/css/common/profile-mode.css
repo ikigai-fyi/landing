@@ -25,7 +25,7 @@
 
 .buttons {
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -35,6 +35,17 @@
     margin: 8px;
     padding: 6px;
     transition: transform 0.1s;
+}
+
+.img-button {
+    border-radius: var(--radius);
+    margin: 8px;
+    padding: 6px;
+    transition: transform 0.1s;
+}
+
+.img-button img {
+    border-radius: 0;
 }
 
 .button-inner {

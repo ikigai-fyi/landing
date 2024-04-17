@@ -62,9 +62,16 @@ params:
     imageHeight: 120
     imageTitle: "memories icon"
     buttons:
-      - name: Download
+      - name: Download iOS
         url: https://apps.apple.com/us/app/memories-widget-for-strava/id6448870765
-
+        image: appstore.png
+        cssClass: img-button
+        height: 60
+      - name: Download Android
+        url: /?download-android
+        image: playstore.png
+        cssClass: img-button
+        height: 60
   # home-info mode
   # homeInfoParams:
   #   Title: "Memories: Widgets for Strava \U0001F44B"
