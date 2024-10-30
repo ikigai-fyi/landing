@@ -18,7 +18,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Ikigai
   description: "Ikigai company"
-  author: ["Vincent Ballet", "Paul Nicolet"]
+  author: ["Vincent Ballet", "Paul Nicolet", "Thomas Mosmant"]
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light, auto
   disableThemeToggle: true
@@ -66,7 +66,7 @@ params:
         cssClass: img-button
         height: 60
       - name: Download Android
-        url: /?download-android
+        url: https://play.google.com/store/apps/details?id=fyi.ikigai.memories
         image: playstore.png
         cssClass: img-button
         height: 60
@@ -74,6 +74,7 @@ params:
   # homeInfoParams:
   #   Title: "Memories: Widgets for Strava \U0001F44B"
   #   Content: Welcome to my blog
+
 
   # socialIcons:
   #   - name: twitter
