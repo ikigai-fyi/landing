@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirection</title>
+  <script>
+    (function () {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      var iosStoreUrl = "https://apps.apple.com/us/app/memories-widgets-for-strava/id6448870765";
+      var androidStoreUrl = "https://play.google.com/store/apps/details?id=fyi.ikigai.memories";
+      var siteRootUrl = "/";
+
+      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        window.location.replace(iosStoreUrl);
+      } else if (/android/i.test(userAgent)) {
+        window.location.replace(androidStoreUrl);
+      } else {
+        window.location.replace(siteRootUrl);
+      }
+    })();
+  </script>
+</head>
+<body>
+</body>
+</html>
